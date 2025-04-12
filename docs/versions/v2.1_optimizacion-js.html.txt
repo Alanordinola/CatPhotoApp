@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- MEJORA v1.1 - Semántica y SEO -->
+    <!-- - Idioma cambiado a 'es' para contenido en español -->
+    <!-- - Metatag de descripción para mejor SEO -->
+    <!-- - Viewport para responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicación interactiva sobre fotos de gatos con formularios accesibles">
+    <title>CatPhotoApp | Galería Interactiva de Gatos</title>
+    
+    <!-- MEJORA v1.2 - Organización de assets -->
+    <!-- - Ruta relativa al CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!-- MEJORA v1.3 - Roles ARIA para accesibilidad -->
+    <header role="banner">
+        <h1>CatPhotoApp</h1>
+    </header>
+
+    <main role="main">
+        <!-- PENDIENTE: Añadir breadcrumbs para mejor navegación -->
+        
+        <section aria-labelledby="cat-photos-heading">
+            <h2 id="cat-photos-heading">Fotos de Gatos</h2>
+            
+            <!-- MEJORA v1.4 - Optimización de enlaces -->
+            <!-- - aria-label para descripción accesible -->
+            <!-- - rel="noopener noreferrer" para seguridad -->
+            <p>Todo el mundo adora <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" 
+               aria-label="Ver foto de gatos corriendo">gatos adorables</a> en internet.</p>
+            
+            <p>Mira más <a href="https://freecatphotoapp.com" target="_blank" 
+               rel="noopener noreferrer">fotos de gatos</a> en nuestra galería.</p>
+            
+            <!-- MEJORA v1.5 - Mejor semántica con figure/figcaption -->
+            <!-- PENDIENTE: Añadir tamaño fijo para layout estable -->
+            <figure>
+                <a href="https://freecatphotoapp.com">
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" 
+                         alt="Un gato naranja adorable recostado boca arriba"
+                         loading="lazy"> <!-- MEJORA: Carga diferida -->
+                </a>
+                <figcaption>¡Gato relajándose!</figcaption>
+            </figure>
+        </section>
+
+        <section aria-labelledby="cat-lists-heading">
+            <h2 id="cat-lists-heading">Listas sobre Gatos</h2>
+            
+            <!-- MEJORA v1.6 - Uso de article para contenido independiente -->
+            <article>
+                <h3>Cosas que los gatos aman:</h3>
+                <ul>
+                    <li>Hierba gatera</li>
+                    <li>Punteros láser</li>
+                    <li>Lasaña</li>
+                </ul>
+                
+                <!-- PENDIENTE: Añadir tooltip con detalles sobre por qué les gusta -->
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" 
+                         alt="Rebanada de lasaña en un plato"
+                         loading="lazy">
+                    <figcaption>Los gatos <em>adoran</em> la lasaña.</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h3>Top 3 cosas que los gatos odian:</h3>
+                <ol>
+                    <li>Tratamiento contra pulgas</li>
+                    <li>Truenos</li>
+                    <li>Otros gatos</li>
+                </ol>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" 
+                         alt="Cinco gatos mirando alrededor en un campo"
+                         loading="lazy">
+                    <figcaption>Los gatos <strong>odian</strong> a otros gatos.</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <!-- MEJORA v1.7 - Formulario accesible -->
+        <!-- PENDIENTE: Añadir validación JavaScript -->
+        <section aria-labelledby="cat-form-heading">
+            <h2 id="cat-form-heading">Formulario sobre Gatos</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo" method="post">
+                
+                <!-- MEJORA v1.8 - Fieldset para agrupación lógica -->
+                <fieldset>
+                    <legend>¿Tu gato es indoor o outdoor?</legend>
+                    <label>
+                        <input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> 
+                        Indoor
+                    </label>
+                    <label>
+                        <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> 
+                        Outdoor
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿Cómo es la personalidad de tu gato?</legend>
+                    <label>
+                        <input type="checkbox" name="personality" value="loving" checked> 
+                        Cariñoso
+                    </label>
+                    <label>
+                        <input type="checkbox" name="personality" value="lazy"> 
+                        Perezoso
+                    </label>
+                    <label>
+                        <input type="checkbox" name="personality" value="energetic"> 
+                        Energético
+                    </label>
+                </fieldset>
+
+                <!-- MEJORA v1.9 - Mejor etiquetado de inputs -->
+                <div class="form-group">
+                    <label for="catphoto-url">URL de foto de gato:</label>
+                    <input type="url" id="catphoto-url" name="catphotourl" 
+                           placeholder="https://example.com/cat.jpg" 
+                           required
+                           aria-describedby="url-help">
+                    <small id="url-help">Ingresa una URL válida de una foto de gato</small>
+                </div>
+
+                <!-- PENDIENTE: Añadir feedback al enviar formulario -->
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- MEJORA v2.0 - Footer accesible -->
+    <footer role="contentinfo">
+        <p>
+            No Copyright - <a href="https://www.freecodecamp.org" aria-label="Visitar freeCodeCamp">freeCodeCamp.org</a>
+        </p>
+        <!-- PENDIENTE: Añadir enlaces a redes sociales -->
+    </footer>
+
+    <!-- MEJORA v2.1 - Scripts optimizados -->
+    <!-- - defer para no bloquear renderizado -->
+    <!-- - Ruta relativa al JS -->
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+ROADMAP - CatPhotoApp
+=====================
+
+ESTADO ACTUAL (Junio 2024):
+✓ Versión HTML accesible (v2.1)
+☑ Validación JS formularios (en progreso)
+☑ Sistema de votación (50%)
+
+PRÓXIMOS 3 MESES:
+• Tutorial CSS FCC (Julio)
+• Estilos personalizados (Agosto)
+• Validación JS completa (Septiembre)
+
+FUTURO:
+• API para subir fotos
+• Autenticación básica
+• Versión móvil responsive
+
+DEPENDENCIAS:
+• Node.js (cuando necesites backend)
+• MongoDB (para futura base de datos)
+
+RECURSOS:
+[Por contratar] Diseñador UI/UX

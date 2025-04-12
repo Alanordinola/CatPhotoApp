@@ -1,0 +1,33 @@
+ARQUITECTURA - CatPhotoApp (v2.1)
+----------------------------------
+
+ESTADO ACTUAL:
+- Tipo: Frontend estático (HTML)
+- Versión: 2.1 (optimización JS básica)
+
+TECNOLOGÍAS:
+- HTML5 semántico
+- CSS (próximamente)
+- JavaScript básico (defer)
+
+ESTRUCTURA:
+CatPhotoApp/
+├── assets/
+│   ├── css/       (vacío)
+│   └── js/        (main.js con defer)
+├── index.html     (v2.1)
+└── docs/
+    ├── ARCHITECTURE.txt
+    ├── CHANGELOG.txt
+    └── ROADMAP.txt
+
+DESPLIEGUE:
+- Compatible con: GitHub Pages
+- Navegadores: Chrome, Firefox, Edge modernos
+
+FUTURO PLANEADO:
+1. CSS (tutorial FCC)
+2. Validación JS de formularios
+3. Backend (Node.js + MongoDB) - largo plazo
+
+Actualizado: 2025-10-04

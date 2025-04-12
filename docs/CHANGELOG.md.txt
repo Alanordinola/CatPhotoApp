@@ -1,0 +1,21 @@
+HISTORIAL - CatPhotoApp
+-----------------------
+
+v2.1 (2025-04-10) - Optimización JS
+• Scripts con defer
+• Lazy loading imágenes
+• Footer accesible
+
+v2.0 (2025-04-09) - Accesibilidad
+• Roles ARIA (banner, main)
+• Meta descripción SEO
+• Mejor etiquetado formulario
+
+v1.1 (2025-04-08) - Estructura
+• HTML5 semántico
+• Rutas assets relativas
+• Organización carpetas
+
+v1.0 (2025-04-08) - Lanzamiento
+• Código base tutorial FCC
+• Estructura básica HTML

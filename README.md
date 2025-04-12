@@ -1,71 +1,104 @@
-CAT PHOTO APP - PROYECTO FREECODECAMP
-=====================================
+# 🐱 CatPhotoApp 
 
-DESCRIPCIÓN
------------
-Aplicación web educativa desarrollada como parte del curso de HTML de FreeCodeCamp, 
-mejorada con características de accesibilidad y optimización. Permite visualizar 
-fotos de gatos y enviar formularios con información felina.
+[![GitHub Pages](https://img.shields.io/badge/🚀-Live_Demo-blue)](https://alanordinola.github.io/CatPhotoApp/)
+[![Tutorial FCC](https://img.shields.io/badge/🎓-freeCodeCamp-orange)](https://www.freecodecamp.org/)
 
-CARACTERÍSTICAS PRINCIPALES
----------------------------
-• HTML5 semántico con estructura accesible
-• Roles ARIA implementados (banner, main, contentinfo)
-• Optimizaciones de performance (lazy loading en imágenes)
-• Formulario con validación HTML5 básica
-• Preparado para integración con CSS y JavaScript
+> Proyecto educativo mejorado con accesibilidad y optimizaciones. ¡Aprende HTML/CSS/JS mientras creas una galería felina!
 
-ESTRUCTURA DEL PROYECTO
------------------------
-CatPhotoApp/
-│
-├── assets/
-│   ├── css/          # Hojas de estilo (próximamente)
-│   └── js/           # Lógica JavaScript (en desarrollo)
-│
-├── docs/             # Documentación técnica
-│   ├── ARCHITECTURE.txt  # Diseño del sistema
-│   ├── CHANGELOG.txt     # Historial de versiones
-│   └── ROADMAP.txt       # Plan de desarrollo
-│
-└── index.html        # Página principal (versión 2.1)
+<p align="center">
+  <img src="assets/img/screenshot.png" alt="Captura del proyecto" width="600">
+</p>
 
-REQUISITOS
-----------
-• Navegador web moderno (Chrome, Firefox, Edge)
-• Editor de código (VS Code recomendado)
-• Conexión a internet para cargar imágenes externas
+## 🌟 Características
+- ✅ HTML5 semántico con roles ARIA
+- ⚡ Lazy loading para imágenes
+- 📱 Diseño responsive (en progreso)
+- 📝 Formulario con validación HTML5
 
-INSTALACIÓN LOCAL
-----------------
-1. Descargar o clonar el repositorio
-2. Abrir index.html en cualquier navegador
-3. Explorar las diferentes secciones:
-   - Galería de fotos
-   - Listas de preferencias
-   - Formulario interactivo
+## 🛠️ Cómo Empezar
 
-VERSIONES
----------
-v2.1 (2024-06-30): Optimización de scripts
-v2.0 (2024-06-28): Mejoras de accesibilidad
-v1.0 (2024-06-20): Versión inicial del tutorial
+```bash
+git clone https://github.com/Alanordinola/CatPhotoApp.git
+cd CatPhotoApp
+```
 
-PRÓXIMAS ACTUALIZACIONES
-------------------------
-• Implementar estilos CSS del tutorial FCC
-• Añadir validación avanzada con JavaScript
-• Crear sistema de votación para fotos
-• Desplegar en GitHub Pages
+**Requisitos**:  
+✔ Navegador moderno (Chrome 100+, Firefox 90+)  
+✔ Node.js 16+ (opcional para desarrollo)
 
-DOCUMENTACIÓN RELACIONADA
--------------------------
-• ARCHITECTURE.txt - Detalles técnicos del diseño
-• CHANGELOG.txt - Historial completo de cambios
-• ROADMAP.txt - Plan de desarrollo futuro
+**Instalación opcional**:
+```bash
+npm install -g live-server  # Para previsualización local
+```
+## 🧩 Estructura del Proyecto
 
-CONTACTO
---------
-Alan Ordinola
-alanemilio2k@gmail.com
-[Fecha de última actualización: 2024-06-30]
+📁 CatPhotoApp  
+├── 📁 assets  
+│   ├── 📁 css        (*próximamente*)  
+│   ├── 📁 js         (*en desarrollo*)  
+│   └── 📁 img        (*imágenes locales*)  
+├── 📁 docs  
+│   ├── 📄 ARCHITECTURE.md  
+│   ├── 📄 CHANGELOG.md  
+│   └── 📄 ROADMAP.md  
+└── 📄 index.html     (*v2.1+*)
+
+
+## 📚 Aprendizaje
+
+✅ HTML semántico          
+🎯 Accesibilidad ARIA       
+⚡ Optimización performance  
+📁 Organización de proyecto
+
+## 🤝 Guía para Contribuir
+
+1. Haz fork del proyecto
+
+2. Crea una rama (git checkout -b feature/nueva-funcionalidad)
+
+3. Envía un Pull Request
+
+
+## 📅 Próximos Pasos
+
+### 🎨 Frontend
+
+- [ ]  **Estilos CSS**  
+  ✓ Implementar grid para galería  
+  ✓ Diseñar formulario responsive  
+  ✓ Añadir variables de colores
+
+
+### ⚙️ Funcionalidades
+
+- [ ]  **Validación JS**  
+  ✓ Campos obligatorios  
+  ✓ Formato de email  
+  ✓ Feedback visual
+
+### 🚀 Optimizaciones
+
+- [ ]  **Performance**  
+  ✓ Convertir imágenes a WebP  
+  ✓ Minificar assets  
+  ✓ Lazy loading avanzado
+
+
+### 📚 Documentación
+
+- [ ]  **Guías**  
+  ✓ Tutorial para contribuidores  
+  ✓ Checklist de accesibilidad  
+  ✓ Estándares de código
+
+[![Roadmap](https://img.shields.io/badge/🗺️-Roadmap_2025-blue?style=for-the-badge)](docs/ROADMAP.md)  
+[![Issues](https://img.shields.io/github/issues/Alanordinola/CatPhotoApp?color=green&style=for-the-badge)](https://github.com/Alanordinola/CatPhotoApp/issues)
+
+  
+Hecho con ❤️ para el [curso de freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)  
+[![FCC](https://img.shields.io/badge/🚀_Estudiando_en_FCC-0A0A23)](https://www.freecodecamp.org/)
+
+
+[![GitHub Stars](https://img.shields.io/github/stars/Alanordinola/CatPhotoApp?style=social)](https://github.com/Alanordinola/CatPhotoApp/stargazers)
+

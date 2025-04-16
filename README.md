@@ -1,31 +1,32 @@
-# 🐱 CatPhotoApp 
+# 🐱 CatPhotoApp
 
-[![GitHub Pages](https://img.shields.io/badge/🚀-Live_Demo-blue)](https://alanordinola.github.io/CatPhotoApp/)
-[![Tutorial FCC](https://img.shields.io/badge/🎓-freeCodeCamp-orange)](https://www.freecodecamp.org/)
+
+[![GitHub Pages](https://img.shields.io/badge/🚀_Live_Demo-blue)](https://alanordinola.github.io/CatPhotoApp)
+[![freeCodeCamp](https://img.shields.io/badge/🎓_Tutorial_FCC-orange)](https://www.freecodecamp.org/)
+[![Último Commit](https://img.shields.io/github/last-commit/Alanordinola/CatPhotoApp?color=blue)](https://github.com/Alanordinola/CatPhotoApp/commits)
+
 
 Proyecto educativo mejorado con accesibilidad y optimizaciones. ¡Aprende HTML/CSS/JS mientras creas una galería felina!
 
-<div align="center">
-  <img src="assets/img/screenshot.png" alt="Interfaz de CatPhotoApp mostrando galería de gatos y formulario" width="85%" style="border:1px solid #eee;border-radius:8px">
-</div>
+  <img src="assets/img/demo.png" alt="Interfaz de CatPhotoApp mostrando galería de gatos y formulario" width="85%" style="border:1px solid #eee;border-radius:8px">
+
 
 ## 🌟 Características Principales
 
-- ✅ HTML5 semántico con roles ARIA
-- ⚡ Lazy loading para imágenes
-- 📱 Diseño responsive (en progreso)
-- 📝 Formulario con validación HTML5
+| ✅ Accesibilidad | ⚡ Performance | 📱 Responsive |
+|------------------|---------------|--------------|
+| Roles ARIA       | Lazy Loading  | Mobile-first |
+| Semántica HTML5  | Defer Scripts | Flexbox      |
+
+
 
 ## 🚀 Comenzar
 
-- *Clonar repositorio (HTTPS)*
-  https://github.com/Alanordinola/CatPhotoApp.git
+### Opción 1: Clonar
+git clone https://github.com/Alanordinola/CatPhotoApp.git
 
-- *O usando SSH (recomendado)*
-  git@github.com:Alanordinola/CatPhotoApp.git
-
-- Entrar al directorio
-  cd CatPhotoApp
+### Opción 2: Fork
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f)](https://github.com/Alanordinola/CatPhotoApp/generate)
 
 
 **Requisitos**:  
@@ -90,10 +91,6 @@ Proyecto educativo mejorado con accesibilidad y optimizaciones. ¡Aprende HTML/C
   ✓ Checklist de accesibilidad  
   ✓ Estándares de código
   
-[![Roadmap](https://img.shields.io/badge/🗺️-Roadmap_2025-blue?style=for-the-badge)](docs/ROADMAP.md)  
-
-  
-[![Issues](https://img.shields.io/github/issues/Alanordinola/CatPhotoApp?color=green&style=for-the-badge)](https://github.com/Alanordinola/CatPhotoApp/issues)
 
 Hecho con ❤️ para el [curso de freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)  
 [![FCC](https://img.shields.io/badge/🚀_Estudiando_en_FCC-0A0A23)](https://www.freecodecamp.org/)
@@ -101,5 +98,7 @@ Hecho con ❤️ para el [curso de freeCodeCamp](https://www.freecodecamp.org/le
 [![GitHub Stars](https://img.shields.io/github/stars/Alanordinola/CatPhotoApp?style=social)](https://github.com/Alanordinola/CatPhotoApp/stargazers)
 
 
-[![Último Commit](https://img.shields.io/github/last-commit/Alanordinola/CatPhotoApp?style=social)](https://github.com/Alanordinola/CatPhotoApp/commits)
 
+[![Último Commit](https://img.shields.io/github/last-commit/Alanordinola/CatPhotoApp?color=green)](https://github.com/Alanordinola/CatPhotoApp/commits)
+
+[![GitHub Issues](https://img.shields.io/github/issues/Alanordinola/CatPhotoApp?color=blue)](https://github.com/Alanordinola/CatPhotoApp/issues)

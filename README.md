@@ -128,16 +128,13 @@ start index.html # Windows
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. **Visualiza fotos de gatos** en la galería
+1. **Browse cat photos** in the gallery
+2. **Practice with HTML forms** (simulated submission)
+3. **Edit files** to learn:
+   - Add images: `<img src="your-cat.jpg" alt="Fluffy cat">` in `index.html`
+   - Customize styles in `styles.css`
+4. **Refresh browser** to see changes
 
-2. **Practica con el formulario** HTML (envío simulado)
-
-3. **Edita los archivos** para aprender:
-
-- Añade imágenes: `<img src="tu-gato.jpg">` en index.html
-- Personaliza estilos en styles.css
-
-4. **Refresca el navegador** para ver cambios
 
 #### Ideal para practicar HTML/CSS básico. ¡Personalízalo!
 
@@ -149,10 +146,10 @@ start index.html # Windows
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ]  ***HTML Semántico***
-  - [x] Mejorar estructura con `<section>` y `<article>`
-  - [x] Añadir etiquetas ARIA para accesibilidad
-  - [ ] Implementar `<picture>` para imágenes responsive
+- [ ] ***Semantic HTML***
+  - [x] Improve structure with `<section>` and `<article>`
+  - [x] Add ARIA tags for accessibility
+  - [ ] Implement `<picture>` for responsive images
 - [ ]  ***CSS Style***
   - [ ]  Implement gallery grid
   - [ ]  Design responsive form

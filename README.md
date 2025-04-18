@@ -136,7 +136,7 @@ start index.html # Windows
 4. **Refresh browser** to see changes
 
 
-#### Ideal para practicar HTML/CSS básico. ¡Personalízalo!
+#### Perfect for practicing basic HTML/CSS. Customize it!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

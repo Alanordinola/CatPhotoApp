@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Alanordinola/CatPhotoApp">
-    <img src="images/Logo.png" alt="Logo" width="80" height="80">
+    <img src="images/Logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Cat Photo App</h3>
@@ -240,7 +240,7 @@ Hecho con ❤️ para el [curso de freeCodeCamp](https://www.freecodecamp.org/le
 [license-url]: https://github.com/Alanordinola/CatPhotoApp/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0A66C2
 [linkedin-url]: https://www.linkedin.com/in/alan-ordinola-10026a196/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot.jpg
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

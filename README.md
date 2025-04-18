@@ -225,6 +225,7 @@ Hecho con ❤️ para el [curso de freeCodeCamp](https://www.freecodecamp.org/le
 
 
 
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Alanordinola/CatPhotoApp.svg?style=for-the-badge&color=green
@@ -256,8 +257,6 @@ Hecho con ❤️ para el [curso de freeCodeCamp](https://www.freecodecamp.org/le
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-
-<!-- MARKDOWN LINKS & IMAGES -->
 [HTML5-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [HTML5-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS3-shield]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
